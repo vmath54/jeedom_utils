@@ -1,5 +1,16 @@
 # Tutoriel pour générer un fichier similaire à 'sample.xls' à partir de 'sample.csv'
 ---
+## préalable
+Le fichier **'sample.csv'** a été généré par le plugin jeedom **dataexport**, à partir de données provenant d'une batterie Marstek Venus E version 3.  
+Il contient l'historique de 23 commandes (mesures) relevées toutes les minutes à l'aide du plugin mymodbus.  
+On souhaite produire un fichier excel facilement exploitable, et contenant différents graphiques.  
+
+On utilise le modèle **'jeedom_import_modele.xlsm'** pour cela.
+
+Le produit final est le fichier **'sample.xlsx'** ; **'sample.xlsm'** est un fichier intermédiaire, idemtique au précédent, mais contenant les macros permettant de réaliser ce travail.
+
+Voici la procédure suivie pour produire **'sample.xlsx'** :
+
 ## 1) Copie du modèle
 Copie de 'jeedom_import_modele.xlsm' vers 'sample.xlsm'.
 
