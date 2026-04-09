@@ -54,6 +54,9 @@ Les opérations possibles sont :
 - MAX
 - MIN
 - SOMME
+- DIFFERENCE  
+
+L'opération DIFFERENCE ne s'applique que sur 2 colonnes ; le résultat est la valeur absolue de la soustraction d'une colonne avec l'autre.
 
 ## Générer un graphiques
 L'idée est de générer un graphique avec en abscisse le temps (colonne A de la feuille datas).  
